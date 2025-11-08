@@ -245,7 +245,7 @@ span{
     margin-bottom: 20rem;
 }
 .features-main-heading{
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 .features-flex-container{
     flex-direction: column;
@@ -289,20 +289,20 @@ span{
 
 /* ------ FOOTER SECTION ------ */
 .footer{
-    justify-content: space-around;
     background: linear-gradient(90deg, rgba(255, 3, 3, 0.8), rgba(255, 157, 0, 0.4));
     border-radius: 200px 200px 0px 0px;
     padding: var(--padding-inline-sm);
-    min-height: 500px;
+    min-height: 400px;
     height: 100%;
+    flex-direction: column;
 }
-
-.footer-links-container{
-    max-width: 500px;
-    width: 100%;
-    align-items: flex-start;
+.footer-dev{
+    margin-bottom: 15rem;
+    margin-top: 5rem;
+    width: 70%;
+    align-items: flex-end;
+    justify-content: space-between;
 }
-
 .footer-links{
     text-align: left;
 }

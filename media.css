@@ -1,35 +1,119 @@
-@media (max-width: 75rem) {
-    /* 1190px / 16px = 74.375rem */
-    /* 16px x 75rem = 1200px */
+@media (max-width: 68.75rem) {
+    /* 1100px / 16px = 68.75rem */
+    /* 16px x 68.75rem = 1100px */
 
     html{
-        font-size: 50%;
-        /* 50% of 16px = 8px */
+        font-size: 55%;
+        /* 55% of 16px = 8.8px */
     }
     .feature-text{
-        max-width: 400px;
+        max-width: 430px;
         width: 100%;
     }
     .feature-img{
-        max-width: 400px;
+        max-width: 430px;
         width: 100%;
     }
 }
 
-@media (max-width: 55rem) {
-    /* 870px / 16px = 54.375rem */
-    /* 16px x 55rem = 880px */
+@media (max-width: 59.9rem) {
+    /* 958.4px / 16px = 59.9rem */
+    /* 16px x 59.9rem = 958.4px */
 
     html{
-        font-size: 45%;
-        /* 45% of 16px = 7.2px */
+        font-size: 48%;
+        /* 48% of 16px = 7.68px */
     }
     .feature-text{
-        max-width: 400px;
+        max-width: 380px;
         width: 100%;
     }
     .feature-img{
-        max-width: 400px;
+        max-width: 380px;
         width: 100%;
+    }
+}
+
+@media (max-width: 52.5rem) {
+    /* 840x / 16px = 52.5rem */
+    /* 16px x 52.5rem = 840px */
+
+    html{
+        font-size: 41%;
+        /* 42% of 16px = 6.56px */
+    }
+    .feature-text{
+        max-width: 318px;
+        width: 100%;
+    }
+    .feature-img{
+        max-width: 318px;
+        width: 100%;
+    }
+    .footer{
+        min-height: 300px;
+    }
+    .footer-dev{
+        margin-top: 8rem;
+        width: 65%;
+    }
+}
+
+@media (max-width: 44.7rem) {
+    /* 715px / 16px = 44.7rem */
+    /* 16px x 44.7rem = 715.2px */
+
+    html{
+        font-size: 35%;
+        /* 35% of 16px = 5.6px */
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-main-heading{
+        margin-bottom: 18rem;
+    }
+    .row-reverse{
+        flex-direction: column-reverse;
+    }
+    .feature-text{
+        max-width: 548px;
+        width: 100%;
+    }
+    .feature-img{
+        max-width: 548px;
+        width: 100%;
+    }
+    .footer{
+        min-height: 200px;
+    }
+    .footer-dev{
+        margin-top: 15rem;
+        width: 60%;
+    }
+}
+
+@media (max-width: 38.5rem) {
+    /* 616px / 16px = 38.5rem */
+    /* 16px x 37.1rem = 593.6px */
+
+    html{
+        font-size: 30%;
+        /* 28% of 16px = 4.48px */
+    }
+    .feature-text{
+        max-width: 440px;
+        width: 100%;
+    }
+    .feature-img{
+        max-width: 440px;
+        width: 100%;
+    }
+    .footer{
+        min-height: 100px;
+    }
+    .footer-dev{
+        margin-top: 10rem;
+        width: 55%;
     }
 }
